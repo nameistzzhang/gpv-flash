@@ -118,10 +118,10 @@ If you find this codebase helpful, we would appreciate it if you give us a star 
 
 ```bibtex
 @inproceedings{ye2025gpv,
-      title={Measuring Human and AI Values based on Generative Psychometrics with Large Language Models}, 
+      title={Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models}, 
       author={Haoran Ye and Yuhang Xie and Yuanyi Ren and Hanjun Fang and Xin Zhang and Guojie Song},
-      year={2025},
       booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
       volume={39},
+      year={2025}
 }
 ```
