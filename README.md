@@ -1,4 +1,4 @@
-# Measuring Human and AI Values based on Generative Psychometrics with Large Language Models
+# [AAAI 2025] Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models
 
 ## 🚀 Introduction
 
@@ -8,7 +8,7 @@ This codebase accompanies the paper [*Measuring Human and AI Values based on Gen
 
 Compared with traditional tools for measuring human values, GPV (1) effectively mitigates response bias and resource demands by dispensing with self-reports; (2) captures authentic behaviors instead of relying on forced ratings; (3) can handle historical or subjective data; (4) measures values in open-ended value spaces and easily adapts to new or evolving values without expert effort; and (5) enables more scalable and flexible value measurement.
 
-Compare with recent works on measuring LLM values, GPV (1) mitigates response bias and yields more theoretically valid results; (2) is more practically relevant for measuring LLM values based on their scalable and free-form responses; and (3) enables context-specific measurements.
+Compared with recent works on measuring LLM values, GPV (1) mitigates response bias and yields more theoretically valid results; (2) is more practically relevant for measuring LLM values based on their scalable and free-form responses; and (3) enables context-specific measurements.
 
 ## 📦 Requirements
 - Python 3.10
@@ -117,13 +117,11 @@ results = gpv.measure_entities_rag(
 If you find this codebase helpful, we would appreciate it if you give us a star and cite our paper:
 
 ```bibtex
-@misc{ye2024gpv,
+@inproceedings{ye2025gpv,
       title={Measuring Human and AI Values based on Generative Psychometrics with Large Language Models}, 
       author={Haoran Ye and Yuhang Xie and Yuanyi Ren and Hanjun Fang and Xin Zhang and Guojie Song},
-      year={2024},
-      eprint={2409.12106},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2409.12106}, 
+      year={2025},
+      booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+      volume={39},
 }
 ```
